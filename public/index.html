@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang='pt-br'>
+    <head>
+        <title>Test Chat</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="style.css"/>
+    </head>
+
+    <body>
+        
+        <div class="page" id="loginPage">
+            <h3>Qual seu nome ?</h3>
+            <input type="text" id="loginNameInput" placeholder="Type your name here"/>
+        </div>
+
+        <div class="page" id="chatPage">
+            <div class="chatArea">
+                <ul class="chatList">
+                    
+                </ul>
+
+                <ul class="userList">
+                    
+                </ul>
+            </div>
+
+            <div class="chatInput">
+                <input type="text" id="chatTextInput" placeholder="Type your text here">
+            </div>
+        </div>
+    
+        <script src="/socket.io/socket.io.js"></script>
+        <script src="./main.js"></script>
+    </body>
+</html>
